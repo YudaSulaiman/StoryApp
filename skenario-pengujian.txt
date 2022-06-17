@@ -1,0 +1,80 @@
+Unit Test
+
+a. ViewModel
+
+- CameraViewModelTest
+  > ketika berhasil memuat data
+    + memastikan ada pengembalian data (tidak null)
+    + memastikan mengembalikan Fetch.Success
+  > ketik gagal memuat data
+    + memastikan mengembalikan Fetch.Error
+
+- LoginViewModelTest
+  > ketika berhasil memuat data
+    + memastikan ada pengembalian data (tidak null)
+    + memastikan mengembalikan Fetch.Success
+  > ketik gagal memuat data
+    + memastikan mengembalikan Fetch.Error
+
+- MainViewModelTest
+    + memastikan ada pengembalian data (tidak null)
+    + memastikan jumlah data sesuai dengan yang diharapkan
+    + memastikan isi data sesuai yang diharapkan
+
+- MapsViewModelTest
+  > ketika berhasil memuat data
+    + memastikan ada pengembalian data (tidak null)
+    + memastikan mengembalikan Fetch.Success
+  > ketik gagal memuat data
+    + memastikan mengembalikan Fetch.Error
+
+- SignupViewModelTest
+  > ketika berhasil memuat data
+    + memastikan ada pengembalian data (tidak null)
+    + memastikan mengembalikan Fetch.Success
+  > ketik gagal memuat data
+    + memastikan mengembalikan Fetch.Error
+
+b. Repository
+
+- RepositoryTest
+  > pada fungsi userLogin
+    + memastikan data yang diambil dari internet tidak null
+    + memastikan data yang didapat berisi data loginResult
+  > pada fungsi userRegister
+    + memastikan data yang dikirim ke internet mengembalikan response message
+    + memastikan data yang didapat berisi data string message
+  > pada fungsi userRegister
+    + memastikan data yang dikirim ke internet mengembalikan response message
+    + memastikan data yang didapat berisi data string message
+
+- RepositoryTest
+  > pada fungsi getListStory
+    + memastikan data yang diambil dari internet tidak null
+    + memastikan data yang didapat berjumlah sesuai harapan
+  > pada fungsi getLocationStory
+    + memastikan data yang diambil dari internet tidak null
+    + memastikan terdapat data lat dan lon pada data yang diambil
+    + memastikan data yang didapat berjumlah sesuai harapan
+
+
+Integration Test
+
+- MainActivityIntegrationTest
+  + memastikan RecyclerView tampil
+  + memastikan data yang ditampilkan sesuai
+  + memastikan RecyclyerView dapat di scroll
+  + memastikan data yang terdapat sesudah scroll sesuai
+  + memastikan RecyclerView dapat di klik ke DetailStoryActivity dan data sesuai
+
+
+
+
+
+
+
+
+
+
+
+

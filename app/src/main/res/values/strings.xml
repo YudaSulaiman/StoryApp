@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">StoryApp 2.0</string>
+    <string name="email">Email</string>
+    <string name="title_login_page">Welcome to Story App</string>
+    <string name="message_login_page">Enter your identity</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="copyright">2022 IMAN</string>
+    <string name="title_signup_page">Sign Up now!</string>
+    <string name="name">Name</string>
+    <string name="signup">Signup</string>
+    <string name="title_welcome_page">Welcome to Story App</string>
+    <string name="message_welcome_page">Make your stories memorable!</string>
+    <string name="greeting">Welcome! %1$s</string>
+    <string name="logout">Logout</string>
+    <string name="story_list_name">User name</string>
+    <string name="story_list_created_at">Created At</string>
+    <string name="story_list_image">Story Image</string>
+    <string name="story_detail_name">By %1$s</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+    <string name="description">Add Description</string>
+    <string name="add_story">Add Story</string>
+    <string name="input_password">Enter your password</string>
+    <string name="password_warning">Password no less than 6 characters</string>
+    <string name="input_email">Enter your email</string>
+    <string name="email_warning">Wrong email format</string>
+    <string name="empty_warning">Field cannot be empty</string>
+    <string name="input_name">Enter your name</string>
+    <string name="success">Success!</string>
+    <string name="empty">Empty</string>
+    <string name="desc_warning">Enter your image or description first</string>
+    <string name="field_invalid">Invalid form</string>
+    <string name="detail_story">Detail Story</string>
+    <string name="retry">Try Again</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="action_bar_map">Map</string>
+
+</resources>
